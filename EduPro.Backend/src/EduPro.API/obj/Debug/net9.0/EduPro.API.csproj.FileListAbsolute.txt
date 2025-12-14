@@ -88,3 +88,4 @@ D:\EduPro\EduPro.Backend\src\EduPro.API\obj\Debug\net9.0\refint\EduPro.API.dll
 D:\EduPro\EduPro.Backend\src\EduPro.API\obj\Debug\net9.0\EduPro.API.pdb
 D:\EduPro\EduPro.Backend\src\EduPro.API\obj\Debug\net9.0\EduPro.API.genruntimeconfig.cache
 D:\EduPro\EduPro.Backend\src\EduPro.API\obj\Debug\net9.0\ref\EduPro.API.dll
+D:\EduPro\EduPro.Backend\src\EduPro.API\obj\Debug\net9.0\EduPro.API.sourcelink.json

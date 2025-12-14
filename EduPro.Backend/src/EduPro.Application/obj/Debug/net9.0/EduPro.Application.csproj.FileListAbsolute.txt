@@ -13,3 +13,4 @@ D:\EduPro\EduPro.Backend\src\EduPro.Application\obj\Debug\net9.0\EduPro.Applicat
 D:\EduPro\EduPro.Backend\src\EduPro.Application\obj\Debug\net9.0\refint\EduPro.Application.dll
 D:\EduPro\EduPro.Backend\src\EduPro.Application\obj\Debug\net9.0\EduPro.Application.pdb
 D:\EduPro\EduPro.Backend\src\EduPro.Application\obj\Debug\net9.0\ref\EduPro.Application.dll
+D:\EduPro\EduPro.Backend\src\EduPro.Application\obj\Debug\net9.0\EduPro.Application.sourcelink.json

@@ -15,3 +15,4 @@ D:\EduPro\EduPro.Backend\src\EduPro.Infrastructure\obj\Debug\net9.0\EduPro.Infra
 D:\EduPro\EduPro.Backend\src\EduPro.Infrastructure\obj\Debug\net9.0\refint\EduPro.Infrastructure.dll
 D:\EduPro\EduPro.Backend\src\EduPro.Infrastructure\obj\Debug\net9.0\EduPro.Infrastructure.pdb
 D:\EduPro\EduPro.Backend\src\EduPro.Infrastructure\obj\Debug\net9.0\ref\EduPro.Infrastructure.dll
+D:\EduPro\EduPro.Backend\src\EduPro.Infrastructure\obj\Debug\net9.0\EduPro.Infrastructure.sourcelink.json

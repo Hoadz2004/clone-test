@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EduPro.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88ea0d1fd29882ae4c9b04a67548b3335b269702")]
 [assembly: System.Reflection.AssemblyProductAttribute("EduPro.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EduPro.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

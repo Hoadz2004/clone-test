@@ -24,7 +24,7 @@ END
 -- 3. Create Admission Cohort (Khóa Tuyển Sinh)
 IF NOT EXISTS (SELECT 1 FROM KhoaTuyenSinh WHERE MaKhoaTS = N'KTS2024')
 BEGIN
-    INSERT INTO KhoaTuyenSinh (MaKhoaTS, TenKhoaTS, NamBatDau)
+    INSERT INTO KhoaTuyenSinh (MaKhoaTS, TenKhoaTS, NamTuyenSinh)
     VALUES (N'KTS2024', N'Khóa 2024', 2024);
 END
 
@@ -41,15 +41,15 @@ IF NOT EXISTS (SELECT 1 FROM VaiTro WHERE MaVaiTro = N'LECTURER')
 -- 5. Create Student (Sinh Viên)
 IF NOT EXISTS (SELECT 1 FROM SinhVien WHERE MaSV = N'SV001')
 BEGIN
-    INSERT INTO SinhVien (MaSV, HoTen, Email, MaNganh, MaKhoaTS)
-    VALUES (N'SV001', N'Nguyễn Văn A', N'sv001@edu.vn', N'KTPM', N'KTS2024');
+    INSERT INTO SinhVien (MaSV, HoTen, NgaySinh, GioiTinh, Email, DiaChiLienHe, MaNganh, MaKhoaTS)
+    VALUES (N'SV001', N'Nguyễn Văn A', CAST('2005-01-15' AS DATE), N'Nam', N'sv001@edu.vn', N'123 Đường ABC', N'KTPM', N'KTS2024');
 END
 
 -- 6. Create Lecturer (Giảng Viên)
 IF NOT EXISTS (SELECT 1 FROM GiangVien WHERE MaGV = N'GV001')
 BEGIN
-    INSERT INTO GiangVien (MaGV, HoTen, Email, MaKhoa)
-    VALUES (N'GV001', N'TS. Vũ Thị Phương', N'gv001@edu.vn', N'CNTT');
+    INSERT INTO GiangVien (MaGV, HoTen, NgaySinh, GioiTinh, Email, DiaChiLienHe, MaKhoa)
+    VALUES (N'GV001', N'TS. Vũ Thị Phương', CAST('1980-05-20' AS DATE), N'Nữ', N'gv001@edu.vn', N'456 Đường XYZ', N'CNTT');
 END
 
 -- 7. Create Accounts (Tài Khoản)
